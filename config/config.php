@@ -25,23 +25,18 @@ declare(strict_types=1);
  * Associiative array of OEM => OS => version
  */
 return [
-	'Nextcloud' => [
-		'linux' => [
-			'version' => '2.3.2',
-			'versionstring' => 'Nextcloud Client 2.3.2',
-			'web' => 'https://nextcloud.com/install/?pk_campaign=clientupdate#install-clients',
-		],
-		'win32' => [
-			'version' => '2.3.2.1',
-			'versionstring' => 'Nextcloud Client 2.3.2 (build 1)',
-			'downloadUrl' => 'https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.3.2.1-setup.exe',
-			'web' => 'https://nextcloud.com/install/?pk_campaign=clientupdate#install-clients',
-		],
-		'macos' => [
-			'version' => '2.2.4.1',
-			'versionstring' => 'Nextcloud Client 2.2.4 (build 1)',
-			'downloadUrl' => 'https://download.nextcloud.com/desktop/releases/Mac/Updates/Nextcloud-2.2.4.1.pkg.tbz',
-			'signature' => 'MCwCFGC3X/fejC/y/3T2X+c8ldDk7pJGAhQoR8v6vtvvV57nIcMNePA+jNRYcw==',
-		],
-	],
+    'SHIPdrive' => [
+        'win32' => [
+            'version' => '2.3.2.0',
+            'versionstring' => 'SHIPdrive Client 2.3.2 (build 0)',  
+            'downloadUrl' => 'https://drive.ship.scea.com/desktop/releases/Windows/SHIPdrive-2.3.2.0-setup.exe',
+            'web' => 'https://c5.ship.scea.com/confluence/display/HELP/SHIPdrive+Desktop+Clients',
+        ],
+        'macos' => [
+            'version' => '2.3.2.1',
+            'versionstring' => 'SHIPdrive Client 2.3.2 (build 1)',
+            'downloadUrl' => 'https://drive.ship.scea.com/desktop/releases/Mac/Updates/SHIPdrive-2.3.2.1.pkg.tbz',
+            'signature' => 'MCwCFG4mpFjQMQB2HjgTV1xs9CJxSmD1AhRmOZXvHt4yRU9TxTJR82ruNRl3ng==',
+        ],
+    ],
 ];
