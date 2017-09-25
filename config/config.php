@@ -27,16 +27,16 @@ declare(strict_types=1);
 return [
     'SHIPdrive' => [
         'win32' => [
-            'version' => '2.3.2.1',
-            'versionstring' => 'SHIPdrive Client 2.3.2 (build 1)',  
-            'downloadUrl' => 'https://drive.ship.scea.com/desktop/releases/Windows/SHIPdrive-2.3.2.1-setup.exe',
+            'version' => '2.3.3.1',
+            'versionstring' => 'SHIPdrive Client 2.3.3 (build 1)',  
+            'downloadUrl' => 'https://drive.ship.scea.com/desktop/releases/Windows/SHIPdrive-2.3.3.1-setup.exe',
             'web' => 'https://c5.ship.scea.com/confluence/display/HELP/SHIPdrive+Desktop+Clients',
         ],
         'macos' => [
-            'version' => '2.3.2.1',
-            'versionstring' => 'SHIPdrive Client 2.3.2 (build 1)',
-            'downloadUrl' => 'https://drive.ship.scea.com/desktop/releases/Mac/Updates/SHIPdrive-2.3.2.1.pkg.tbz',
-            'signature' => 'MC4CFQCz8lgqQDebt4NeSa6Fa/Q14ku4WQIVAJC2vU9Mu2M7cU050TSmkyHU99Q2',
+            'version' => '2.3.3.1',
+            'versionstring' => 'SHIPdrive Client 2.3.3 (build 1)',
+            'downloadUrl' => 'https://drive.ship.scea.com/desktop/releases/Mac/Updates/SHIPdrive-2.3.3.1.pkg.tbz',
+            'signature' => 'MC4CFQC99PpNxHbOqxUU00Z6cEAemIH8jAIVAKdVhoB34kOljpdZJ8ksfV0JpVta',
         ],
     ],
 ];
